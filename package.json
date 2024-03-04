@@ -1,0 +1,29 @@
+{
+  "name": "gomailer",
+  "version": "1.0.0",
+  "description": "project key: GM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^19.0.3",
+    "@commitlint/config-angular": "^19.0.3",
+    "@types/passport-jwt": "^4.0.1",
+    "husky": "^9.0.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamtalwinder/gomailer"
+  },
+  "dependencies": {
+    "@nestjs/jwt": "^10.2.0",
+    "@nestjs/passport": "^10.0.3",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1"
+  }
+}
